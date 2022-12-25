@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0;
+}
+body a{
+    display: inline-block;
+    color: black;
+    backboard-color: blue;
+    text-decoration: none;
+    padding: 12px 32px;
+    border-radius: 6px;
+}
+body p, span, h1, h2, ul{
+    font-family: 'Exo 2', sans-serif;
+    font-size:  24px;
+}
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header>*{
+    display: inline-block;
+    width:600px;
+}
+
+header{
+    background-color:#CE9B37;
+    padding: 10px 5%;
+    color: black;
+}
+
+.pustota{
+    width:10%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    margin:0 20px;
+}
+
+.post{
+    padding: 10px 5%;
+    text-align: center;
+    background-color:#D8C7A5;
+    color: black;
+    border-radius: 20px;
+}
+.post>*{
+    display: inline-block;
+    width:450px;
+    font-size:30px;
+    vertical-align: middle;
+}
+
+body{
+    max-width: 100vh;
+    padding: 0 20%;
+}
+
+body>*{
+    background-color: #EDF1FF;
+    padding: 25px;
+    border:2px solid black;
+    border-bottom: none;
+    border-top: none;
+    margin: auto;
+}
+h1, h2{
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+header{
+    background-color:#CE9B37;
+    padding: 10px 5%;
+    color: black;
+}
+ul{
+    font-family: 'Exo 2', sans-serif;
+    font-size:  24px;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
